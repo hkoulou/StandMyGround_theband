@@ -1,9 +1,7 @@
 [build]
   base = "exampleSite"
-  publish = "public"
-  command = "hugo --gc --minify"
+  publish = "exampleSite/public"
+  command = "cd .. && hugo --gc --minify --source exampleSite"
 
 [build.environment]
   HUGO_VERSION = "0.132.0"
-  HUGO_THEME = "../.."
-  HUGO_BASEURL = "/"
