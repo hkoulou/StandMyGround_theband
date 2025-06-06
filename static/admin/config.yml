@@ -1,4 +1,4 @@
-backend:backend:
+backend:
   name: github
   repo: hkoulou/StandMyGround_theband
   branch: master
